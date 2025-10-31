@@ -1,0 +1,65 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Trang-1" id="FP0zybIaO1FebrQxnTtW">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-1" value="Hệ thống" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="OMf__xs0Oy4hFiIEGqy4-1">
+          <mxGeometry x="45" y="60" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="OMf__xs0Oy4hFiIEGqy4-1">
+          <mxGeometry x="51" y="116" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-13" value="Kiểm tra điều kiện đăng ký." style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="OMf__xs0Oy4hFiIEGqy4-12" parent="OMf__xs0Oy4hFiIEGqy4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="96" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="86" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-2" value="Sinh viên" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="OMf__xs0Oy4hFiIEGqy4-2">
+          <mxGeometry x="45" y="60" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-3" value="1. Gửi yêu&amp;nbsp;&lt;div&gt;cầu đăng lý môn học.&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="309.5" y="167" as="sourcePoint" />
+            <mxPoint x="489.5" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-7" value="2.1. Đăng ký thành công." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="254" as="sourcePoint" />
+            <mxPoint x="315" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-8" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-15" value="2.2. Đăng ký thất bại." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="346" as="sourcePoint" />
+            <mxPoint x="315" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="274" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMf__xs0Oy4hFiIEGqy4-17" value="Ghi nhận thông tin đăng ký." style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="OMf__xs0Oy4hFiIEGqy4-16" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="254" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="525" y="284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

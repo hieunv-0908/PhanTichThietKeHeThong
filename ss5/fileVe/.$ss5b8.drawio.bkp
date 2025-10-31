@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Trang-1" id="8j9HtF_aOF1GeZLf1cg1">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-22" value="Bắt&amp;nbsp;" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="305" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-47" value="Không nhập hàng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yGiYqVEUQiZfsWsrrie-23" target="3yGiYqVEUQiZfsWsrrie-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-23" value="Hết hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-24" value="Đặt hàng[hết hàng&amp;nbsp;&lt;div&gt;trong kho]&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yGiYqVEUQiZfsWsrrie-22" target="3yGiYqVEUQiZfsWsrrie-23">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="585" as="sourcePoint" />
+            <mxPoint x="480" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-41" value="Đặt hàng[còn hàng&amp;nbsp;&lt;div&gt;trong kho]&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3yGiYqVEUQiZfsWsrrie-22" target="3yGiYqVEUQiZfsWsrrie-42">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="430" as="sourcePoint" />
+            <mxPoint x="225" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-42" value="Còn hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-43" value="Chờ nhập kho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-44" value="nhập hàng" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3yGiYqVEUQiZfsWsrrie-23" target="3yGiYqVEUQiZfsWsrrie-43">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3yGiYqVEUQiZfsWsrrie-45" value="Ngừng kinh doanh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
