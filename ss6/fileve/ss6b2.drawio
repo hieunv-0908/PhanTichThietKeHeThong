@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Trang-1" id="FqNLd-y05Ki-QXvq0eSS">
+    <mxGraphModel dx="1090" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-1" value="Khách hàng" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="320" y="210" width="100" height="30" as="geometry">
+            <mxRectangle x="40" y="80" width="160" height="390" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-2" value="&lt;li data-end=&quot;643&quot; data-start=&quot;609&quot;&gt;&lt;p data-end=&quot;643&quot; data-start=&quot;611&quot;&gt;&lt;code data-end=&quot;625&quot; data-start=&quot;611&quot;&gt;- maKH: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;672&quot; data-start=&quot;644&quot;&gt;&lt;p data-end=&quot;672&quot; data-start=&quot;646&quot;&gt;&lt;code data-end=&quot;661&quot; data-start=&quot;646&quot;&gt;- hoTen: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;700&quot; data-start=&quot;673&quot;&gt;&lt;p data-end=&quot;700&quot; data-start=&quot;675&quot;&gt;&lt;code data-end=&quot;690&quot; data-start=&quot;675&quot;&gt;- email: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;742&quot; data-start=&quot;701&quot;&gt;&lt;p data-end=&quot;742&quot; data-start=&quot;703&quot;&gt;&lt;code data-end=&quot;724&quot; data-start=&quot;703&quot;&gt;- soDienThoai: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;773&quot; data-start=&quot;743&quot;&gt;&lt;p data-end=&quot;773&quot; data-start=&quot;745&quot;&gt;&lt;code data-end=&quot;761&quot; data-start=&quot;745&quot;&gt;- diaChi: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;816&quot; data-start=&quot;774&quot;&gt;&lt;p data-end=&quot;816&quot; data-start=&quot;776&quot;&gt;&lt;code data-end=&quot;793&quot; data-start=&quot;776&quot;&gt;- matKhau: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-1">
+          <mxGeometry y="26" width="160" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-1">
+          <mxGeometry y="210" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-4" value="&lt;li data-end=&quot;872&quot; data-start=&quot;835&quot;&gt;&lt;p data-end=&quot;872&quot; data-start=&quot;837&quot;&gt;&lt;code data-end=&quot;849&quot; data-start=&quot;837&quot;&gt;+ dangNhap()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;907&quot; data-start=&quot;873&quot;&gt;&lt;p data-end=&quot;907&quot; data-start=&quot;875&quot;&gt;&lt;code data-end=&quot;885&quot; data-start=&quot;875&quot;&gt;+ dangKy()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;962&quot; data-start=&quot;908&quot;&gt;&lt;p data-end=&quot;962&quot; data-start=&quot;910&quot;&gt;&lt;code data-end=&quot;931&quot; data-start=&quot;910&quot;&gt;+ xemThongTinCaNhan()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1010&quot; data-start=&quot;963&quot;&gt;&lt;p data-end=&quot;1010&quot; data-start=&quot;965&quot;&gt;&lt;code data-end=&quot;984&quot; data-start=&quot;965&quot;&gt;+ capNhatThongTin()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1051&quot; data-start=&quot;1011&quot;&gt;&lt;p data-end=&quot;1051&quot; data-start=&quot;1013&quot;&gt;&lt;code data-end=&quot;1024&quot; data-start=&quot;1013&quot;&gt;+ datHang()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1099&quot; data-start=&quot;1052&quot;&gt;&lt;p data-end=&quot;1099&quot; data-start=&quot;1054&quot;&gt;&lt;code data-end=&quot;1068&quot; data-start=&quot;1054&quot;&gt;+ xemSanPham()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-1">
+          <mxGeometry y="218" width="160" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-5" value="Đơn hàng" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="630" y="210" width="90" height="30" as="geometry">
+            <mxRectangle x="630" y="210" width="160" height="310" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-6" value="&lt;li data-end=&quot;1334&quot; data-start=&quot;1297&quot;&gt;&lt;p data-end=&quot;1334&quot; data-start=&quot;1299&quot;&gt;&lt;code data-end=&quot;1318&quot; data-start=&quot;1299&quot;&gt;- maDonHang: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1370&quot; data-start=&quot;1335&quot;&gt;&lt;p data-end=&quot;1370&quot; data-start=&quot;1337&quot;&gt;&lt;code data-end=&quot;1352&quot; data-start=&quot;1337&quot;&gt;- ngayDat: Date&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1405&quot; data-start=&quot;1371&quot;&gt;&lt;p data-end=&quot;1405&quot; data-start=&quot;1373&quot;&gt;&lt;code data-end=&quot;1391&quot; data-start=&quot;1373&quot;&gt;- tongTien: Double&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1478&quot; data-start=&quot;1406&quot;&gt;&lt;p data-end=&quot;1478&quot; data-start=&quot;1408&quot;&gt;&lt;code data-end=&quot;1427&quot; data-start=&quot;1408&quot;&gt;- trangThai: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-5">
+          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-5">
+          <mxGeometry y="150" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-8" value="&lt;li data-end=&quot;1540&quot; data-start=&quot;1497&quot;&gt;&lt;p data-end=&quot;1540&quot; data-start=&quot;1499&quot;&gt;&lt;code data-end=&quot;1514&quot; data-start=&quot;1499&quot;&gt;+ themSanPham()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1583&quot; data-start=&quot;1541&quot;&gt;&lt;p data-end=&quot;1583&quot; data-start=&quot;1543&quot;&gt;&lt;code data-end=&quot;1557&quot; data-start=&quot;1543&quot;&gt;+ xoaSanPham()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1628&quot; data-start=&quot;1584&quot;&gt;&lt;p data-end=&quot;1628&quot; data-start=&quot;1586&quot;&gt;&lt;code data-end=&quot;1602&quot; data-start=&quot;1586&quot;&gt;+ tinhTongTien()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1671&quot; data-start=&quot;1629&quot;&gt;&lt;p data-end=&quot;1671&quot; data-start=&quot;1631&quot;&gt;&lt;code data-end=&quot;1649&quot; data-start=&quot;1631&quot;&gt;+ xacNhanDonHang()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;1700&quot; data-start=&quot;1672&quot;&gt;&lt;p data-end=&quot;1700&quot; data-start=&quot;1674&quot;&gt;&lt;code data-end=&quot;1688&quot; data-start=&quot;1674&quot;&gt;+ huyDonHang()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-5">
+          <mxGeometry y="158" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-9" value="Sản phẩm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="30" as="geometry">
+            <mxRectangle x="290" y="450" width="160" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-10" value="&lt;li data-end=&quot;2178&quot; data-start=&quot;2146&quot;&gt;&lt;p data-end=&quot;2178&quot; data-start=&quot;2148&quot;&gt;&lt;code data-end=&quot;2162&quot; data-start=&quot;2148&quot;&gt;- maSP: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2213&quot; data-start=&quot;2179&quot;&gt;&lt;p data-end=&quot;2213&quot; data-start=&quot;2181&quot;&gt;&lt;code data-end=&quot;2196&quot; data-start=&quot;2181&quot;&gt;- tenSP: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2237&quot; data-start=&quot;2214&quot;&gt;&lt;p data-end=&quot;2237&quot; data-start=&quot;2216&quot;&gt;&lt;code data-end=&quot;2229&quot; data-start=&quot;2216&quot;&gt;- gia: Double&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2273&quot; data-start=&quot;2238&quot;&gt;&lt;p data-end=&quot;2273&quot; data-start=&quot;2240&quot;&gt;&lt;code data-end=&quot;2254&quot; data-start=&quot;2240&quot;&gt;- moTa: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2313&quot; data-start=&quot;2274&quot;&gt;&lt;p data-end=&quot;2313&quot; data-start=&quot;2276&quot;&gt;&lt;code data-end=&quot;2290&quot; data-start=&quot;2276&quot;&gt;- soLuong: int&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-9">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-9">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-12" value="&lt;li data-end=&quot;2379&quot; data-start=&quot;2332&quot;&gt;&lt;p data-end=&quot;2379&quot; data-start=&quot;2334&quot;&gt;&lt;code data-end=&quot;2348&quot; data-start=&quot;2334&quot;&gt;- xemChiTiet()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2440&quot; data-start=&quot;2380&quot;&gt;&lt;p data-end=&quot;2440&quot; data-start=&quot;2382&quot;&gt;&lt;code data-end=&quot;2400&quot; data-start=&quot;2382&quot;&gt;- timKiemSanPham()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2485&quot; data-start=&quot;2441&quot;&gt;&lt;p data-end=&quot;2485&quot; data-start=&quot;2443&quot;&gt;&lt;code data-end=&quot;2458&quot; data-start=&quot;2443&quot;&gt;+ locTheoLoai()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-9">
+          <mxGeometry y="178" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-13" value="Liên hệ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="330" y="420" width="80" height="30" as="geometry">
+            <mxRectangle x="90" y="530" width="160" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-14" value="&lt;li data-end=&quot;2686&quot; data-start=&quot;2651&quot;&gt;&lt;p data-end=&quot;2686&quot; data-start=&quot;2653&quot;&gt;&lt;code data-end=&quot;2671&quot; data-start=&quot;2653&quot;&gt;- maLienHe: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2728&quot; data-start=&quot;2687&quot;&gt;&lt;p data-end=&quot;2728&quot; data-start=&quot;2689&quot;&gt;&lt;code data-end=&quot;2706&quot; data-start=&quot;2689&quot;&gt;- noiDung: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2759&quot; data-start=&quot;2729&quot;&gt;&lt;p data-end=&quot;2759&quot; data-start=&quot;2731&quot;&gt;&lt;code data-end=&quot;2746&quot; data-start=&quot;2731&quot;&gt;- ngayGui: Date&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2813&quot; data-start=&quot;2760&quot;&gt;&lt;p data-end=&quot;2813&quot; data-start=&quot;2762&quot;&gt;&lt;code data-end=&quot;2781&quot; data-start=&quot;2762&quot;&gt;- trangThai: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-13">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-13">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-16" value="&lt;li data-end=&quot;2873&quot; data-start=&quot;2832&quot;&gt;&lt;p data-end=&quot;2873&quot; data-start=&quot;2834&quot;&gt;&lt;code data-end=&quot;2847&quot; data-start=&quot;2834&quot;&gt;+ guiLienHe()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;2919&quot; data-start=&quot;2874&quot;&gt;&lt;p data-end=&quot;2919&quot; data-start=&quot;2876&quot;&gt;&lt;code data-end=&quot;2890&quot; data-start=&quot;2876&quot;&gt;+ xemPhanHoi()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-13">
+          <mxGeometry y="148" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-17" value="Thanh toán" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="625" y="360" width="100" height="30" as="geometry">
+            <mxRectangle x="610" y="360" width="160" height="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-18" value="&lt;li data-end=&quot;3092&quot; data-start=&quot;3051&quot;&gt;&lt;p data-end=&quot;3092&quot; data-start=&quot;3053&quot;&gt;&lt;code data-end=&quot;3074&quot; data-start=&quot;3053&quot;&gt;- maThanhToan: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;3154&quot; data-start=&quot;3093&quot;&gt;&lt;p data-end=&quot;3154&quot; data-start=&quot;3095&quot;&gt;&lt;code data-end=&quot;3115&quot; data-start=&quot;3095&quot;&gt;- phuongThuc: String&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;3196&quot; data-start=&quot;3155&quot;&gt;&lt;p data-end=&quot;3196&quot; data-start=&quot;3157&quot;&gt;&lt;code data-end=&quot;3173&quot; data-start=&quot;3157&quot;&gt;- soTien: Double&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;3240&quot; data-start=&quot;3197&quot;&gt;&lt;p data-end=&quot;3240&quot; data-start=&quot;3199&quot;&gt;&lt;code data-end=&quot;3220&quot; data-start=&quot;3199&quot;&gt;- ngayThanhToan: Date&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-17">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-17">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-20" value="&lt;li data-end=&quot;3303&quot; data-start=&quot;3259&quot;&gt;&lt;p data-end=&quot;3303&quot; data-start=&quot;3261&quot;&gt;&lt;code data-end=&quot;3282&quot; data-start=&quot;3261&quot;&gt;+ thucHienThanhToan()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;3374&quot; data-start=&quot;3304&quot;&gt;&lt;p data-end=&quot;3374&quot; data-start=&quot;3306&quot;&gt;&lt;code data-end=&quot;3326&quot; data-start=&quot;3306&quot;&gt;+ kiemTraTrangThai()&lt;/code&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;3419&quot; data-start=&quot;3375&quot;&gt;&lt;p data-end=&quot;3419&quot; data-start=&quot;3377&quot;&gt;&lt;code data-end=&quot;3393&quot; data-start=&quot;3377&quot;&gt;+ huyThanhToan()&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-17">
+          <mxGeometry y="148" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;jumpSize=19;endSize=23;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dkhGEoP_DfwGOgwn_DAS-1" target="dkhGEoP_DfwGOgwn_DAS-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="430" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-27" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-26">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-28" value="*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=22;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-26">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-27" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;jumpSize=19;endSize=23;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dkhGEoP_DfwGOgwn_DAS-1" target="dkhGEoP_DfwGOgwn_DAS-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="sourcePoint" />
+            <mxPoint x="460" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-31" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-30">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-32" value="*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=22;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-30">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;jumpSize=19;endSize=23;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dkhGEoP_DfwGOgwn_DAS-5" target="dkhGEoP_DfwGOgwn_DAS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="300" as="sourcePoint" />
+            <mxPoint x="750" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-34" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=15;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-33">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-35" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=14;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-33">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="15" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-36" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;jumpSize=19;endSize=23;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dkhGEoP_DfwGOgwn_DAS-1" target="dkhGEoP_DfwGOgwn_DAS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="270" as="sourcePoint" />
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-37" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-36">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-38" value="*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=22;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-36">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endFill=0;jumpSize=19;endSize=23;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dkhGEoP_DfwGOgwn_DAS-5" target="dkhGEoP_DfwGOgwn_DAS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="360" as="sourcePoint" />
+            <mxPoint x="675" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-44" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-43">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkhGEoP_DfwGOgwn_DAS-45" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=12;" connectable="0" vertex="1" parent="dkhGEoP_DfwGOgwn_DAS-43">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="15" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
